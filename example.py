@@ -9,7 +9,6 @@ def b():
     for k in xrange(100000):
         j=k
 
-@profile
 def h():
     for k in xrange(100000):
         j=k
