@@ -11,7 +11,7 @@ Note that it will install a binary command ''kernprof'' and a python library mod
 ```
 kernprof -l example.py 
 ```
-Note that @profile decorator is used to define the functions we want to perform profiling in the python script. 
+Note that @profile decorator is used to define the functions we want to perform profiling in the python script. The output file after the execution is example.py.lprof. 
 
 
 ## Get the profiled results
